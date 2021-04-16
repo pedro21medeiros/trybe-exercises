@@ -91,3 +91,33 @@
   }
 
   
+
+
+
+
+
+
+  .cor-primaria h3:hover{
+      border-style: solid; color: blueviolet;
+  }
+
+  .cor-secundaria h3:hover{
+      border-style: solid; color: blue;
+  }
+
+  .cor-complementar h3:hover{
+      border-style: solid; color: red;
+      border-width: 10px;
+  }
+
+  .cor-escura h3:hover{
+      border-style: solid; color: black;
+  }
+
+  .cor-clara h3:hover{
+      border-style: solid; color: yellow;
+  }
+
+.cor-primaria, .cor-complementar, .cor-clara {
+    font-style: italic;
+}
