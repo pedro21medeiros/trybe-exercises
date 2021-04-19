@@ -13,7 +13,7 @@
     text-align: center;
     width: 200px;
     display: block;
-    margin-left: 300px;
+    margin-left: 43.5%;
   }
 
   .second {
@@ -23,7 +23,7 @@
     text-align: center;
     width: 300px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 33%;
   }
 
   .third {
@@ -37,7 +37,7 @@
 
   .prize-text {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 33%;
 
   }
 
