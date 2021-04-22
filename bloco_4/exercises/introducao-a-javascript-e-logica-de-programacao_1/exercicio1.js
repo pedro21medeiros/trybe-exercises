@@ -22,3 +22,17 @@ switch(c > d) {
     default: 
     console.log("d é maior");
 }
+
+// Exercício 3:
+
+let c = 1;
+let d = 2;
+let e = 3;
+
+if (c > d && c > e) {
+    console.log("O maior é C")
+} else if (d > c && d > e) {
+    console.log("O maior é D")
+} else {
+    console.log("O maior é E")
+}
