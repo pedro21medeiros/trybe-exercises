@@ -48,3 +48,15 @@ if (numero > 0) {
 } else {
     console.log("zero")
 }
+
+// Exercício 5:
+
+let up = 60;
+let left = 80;
+let right = 40;
+
+if ((up + left + right) == 180) {
+    console.log("true")
+} else {
+    console.log("false")
+}
