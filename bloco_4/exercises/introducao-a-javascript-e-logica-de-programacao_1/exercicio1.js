@@ -60,3 +60,28 @@ if ((up + left + right) == 180) {
 } else {
     console.log("false")
 }
+
+// Exercício 6:
+
+let cavalo = "cavalo"
+
+switch(cavalo.toLowerCase()) {
+    case "rainha":
+        console.log("Anda livremente");
+        break;
+    case "rei":
+        console.log("anda de 1 em 1 em qqr direção");
+        break;
+    case "torre":
+        console.log("anda quantas casas quiser para frente, tras e lados");
+        break;
+    case "peao":
+        console.log("anda 1 pra frente");
+        break;
+    case "cavalo":
+        console.log("anda em L");
+        break;
+    default:
+        console.log("Deu ruim!");
+        break;
+}
