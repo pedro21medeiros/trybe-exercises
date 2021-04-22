@@ -139,3 +139,16 @@ if (num1 % 2 !== 0) {
 } else {
     console.log("false");
 }
+
+// Exercício 10:
+
+let productValue = 100;
+let sellValue = 150;
+
+if (productValue >= 0 && sellValue >= 0) {
+    let valorCustoTotal = productValue * 1.2;
+    let lucro = (sellValue - valorCustoTotal) * 1000;
+    console.log(lucro);
+} else {
+    console.log("Erro!");
+}
