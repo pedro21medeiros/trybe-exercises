@@ -36,3 +36,15 @@ if (c > d && c > e) {
 } else {
     console.log("O maior é E")
 }
+
+// Exercício 4:
+
+let numero = 10;
+
+if (numero > 0) {
+    console.log("positive")
+} else if (numero < 0) {
+    console.log("negative")
+} else {
+    console.log("zero")
+}
